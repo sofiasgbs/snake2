@@ -79,6 +79,22 @@ wn.onkeypress(go_down,"Down")
 wn.onkeypress(go_left,"Left")
 wn.onkeypress(go_right,"Right")
 
+def play_sound(sound_file, time=0):
+    winsound.PlaySound(sound_file, winsound.SND_ASYNC)
+
+paused = False
+def toggle_pause():
+    global paused
+    paused = not paused
+    if paused:
+        play_sound(None)  # Parar a música
+    else:
+        play_sound("The-Pink-Panther-Theme-Music-موسيقى-النمر-الوردي.wav")
+
+
+play_sound("The-Pink-Panther-Theme-Music-موسيقى-النمر-الوردي.wav")
+
+
 while True:
     wn.update()
 
