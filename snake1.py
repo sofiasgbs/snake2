@@ -128,7 +128,7 @@ while True:
         new_segment=turtle.Turtle()
         new_segment.speed(0)
         new_segment.shape("square")
-        new_segment.color("brwon")
+        new_segment.color("brown")
         new_segment.penup()
         segments.append(new_segment)
 
