@@ -10,7 +10,7 @@ high_score=0
 
 wn=turtle.Screen()
 wn.title("trabalho final-jogo de cobra")
-wn.bgcolor("green")
+wn.bgcolor("#D1A9A9")
 wn.setup(width=600, height=600)
 wn.tracer(0)
 
@@ -111,7 +111,7 @@ while True:
         new_segment=turtle.Turtle()
         new_segment.speed(0)
         new_segment.shape("square")
-        new_segment.color("grey")
+        new_segment.color("brwon")
         new_segment.penup()
         segments.append(new_segment)
 
