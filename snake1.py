@@ -45,7 +45,7 @@ pen.goto(0,260)
 pen.write("Score: 0 High Score: 0", align="center", font=("Courier", 24, "normal"))
 
 #funções de movimento de cobra
-def go_up():
+def pra_cima():
     if head.direction != "down":
         head.direction="up"
 
